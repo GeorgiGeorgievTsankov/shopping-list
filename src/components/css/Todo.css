@@ -1,0 +1,25 @@
+.todo {
+    width: 600px;
+    min-height: 732px;
+    border-radius: 20px;
+    background-color: white;
+    margin: auto;
+    margin-top: 174px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 44px;
+    padding-bottom: 30px;
+    margin-bottom: 100px;
+    justify-content: start;
+    align-items: center ;
+
+}
+.todoHeader{
+    font-size: 60px;
+    padding: 20px;
+}
+input{
+    padding: 5px;
+    margin-bottom: 20px;
+    
+}
