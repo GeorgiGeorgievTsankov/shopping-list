@@ -21,5 +21,20 @@
 input{
     padding: 5px;
     margin-bottom: 20px;
-    
+
+}
+.addButton{
+    width: 50px;
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(to right, #3498db, #2ecc71);
+    color: #fff;
 }
