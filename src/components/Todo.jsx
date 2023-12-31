@@ -41,7 +41,7 @@ export const Todo = () => {
                 <div onClick={() => { add() }} className="addButton">Add</div>
                 <div className="todoList">
                     {todos.map((items, index) => {
-                        return <TodoItems key={index} no={items.no} display={items.display} text={items.text} />
+                        return <TodoItems key={index} setTodos={setTodos} no={items.no} display={items.display} text={items.text} />
                     })}
                 </div>
 
