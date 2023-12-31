@@ -2,7 +2,7 @@
     width: 600px;
     min-height: 732px;
     border-radius: 20px;
-    background-color: white;
+    background: linear-gradient(rgba(62, 111, 202, 0.5), rgba(4, 9, 89, 0.9));
     margin: auto;
     margin-top: 174px;
     display: flex;
@@ -35,6 +35,12 @@ input{
     cursor: pointer;
     border: none;
     border-radius: 5px;
-    background: linear-gradient(to right, #3498db, #2ecc71);
+    /* background: linear-gradient(to right, #3498db, #2ecc71); */
+    background: linear-gradient(rgba(62, 111, 202, 0.7), rgba(4, 9, 89, 0.9));
     color: #fff;
+    
 }
+
+.activity{
+    text-decoration: line-through;
+  }
