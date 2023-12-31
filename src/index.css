@@ -4,7 +4,7 @@
 }
 
 body{ 
-  background-color: black;
+  background-color: white;
 }
 /* Стилове за контейнера на елемента в "To-Do" списъка */
 .todoItems {
@@ -40,3 +40,8 @@ body{
 .todoItems img:last-child {
   cursor: pointer;
 }
+
+.todoInput{
+  border-radius: 5px;
+}
+
